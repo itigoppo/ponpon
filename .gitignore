@@ -1,4 +1,4 @@
-trade/tmp
-trade/tmp/cache
-trade/tmp/error
-trade/tmp/templates_c
+trade/tmp/*
+trade/tmp/cache/*
+trade/tmp/error/*
+trade/tmp/templates_c/*
