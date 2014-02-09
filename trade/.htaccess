@@ -1,0 +1,11 @@
+# 最後に「/」を付ける ---------------------------------------------------------
+RedirectMatch 301 ^([^.]*[^/])$ $0/
+
+# mod_rewriteの設定 -----------------------------------------------------------
+RewriteEngine on
+RewriteBase /trade/
+RewriteRule ^d([0-9]+)/$ detail.php?id=$1
+RewriteRule ^c([0-9]+)/$ contact.php?id=$1
+RewriteRule ^deny([0-9]+)/$ deny.php?id=$1
+RewriteRule ^my/e([0-9]+)/$ my/edit.php?id=$1
+
