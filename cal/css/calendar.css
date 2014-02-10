@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+#c_day{
+	width : 150px;
+}
+#c_unit{
+	width : 100px;
+}
+#c_time{
+	width : 120px;
+}
+
+table{
+
+  margin : 10px 0px 15px 0px !important;
+  width : 100% !important;
+  background-color : #444343 !important;
+  border : 1px solid #444343 !important;
+}
+
+td {
+  padding : 3px 3px 3px 3px !important;
+  background-color : #ffffff;
+  border : 1px solid #444343 !important;
+}
+
+.event td{
+	border-bottom : 1px dashed #444343 !important;
+}
+
+.detail{
+	/*display : none;*/
+}
