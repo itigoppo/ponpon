@@ -63,6 +63,5 @@ $smarty->display($tmp_file);
 
 // 解析タグ
 if($Hanauta->site_info["server"] == "sakura"){
-	print 1;
 	include("/home/itigoppo/www/ponpon/cgi/ana/lunalys/analyzer/write.php");
 }
