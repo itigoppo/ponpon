@@ -8,3 +8,7 @@ trade/tmp/templates_c/*
 trade/conf/sakura/db.ini
 trade/conf/local/db.ini
 trade/conf/api/twitter.ini
+cal/tmp/cache/*
+cal/tmp/error/*
+cal/tmp/templates_c/*
+
